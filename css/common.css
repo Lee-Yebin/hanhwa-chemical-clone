@@ -1,0 +1,90 @@
+@charset "utf-8";
+:root {
+    font-size: 62.5%; /* 10px */
+    --primary-color : #f37321;
+    --color-green : rgba(46, 179, 0, 0.9);
+    /* typography */
+    --font-large: 2rem; /* 20px */
+    --font-regular: 1.6rem; /* 16px */
+}
+body {
+    font-size: var(--font-regular); /* 16px */
+    font-family: '맑은 고딕','Malgun Gothic','돋움',Dotum,Helvetica,AppleGothic,Sans-serif;
+}
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+/* icon */
+.icon {
+    background-image: url(../image/icon.png);
+    background-repeat: no-repeat;
+}
+.logo {
+    background-position: 0 -597px;
+    width: 260px;
+    height: 32px;
+}
+.btn-toggle {
+    background-position: -651px 0;
+    width: 50px;
+    height: 24px;
+}
+.btn-lang {
+    background-position: -273px 0;
+    width: 32px;
+    height: 23px;
+}
+.search-glass:after {
+    content: '';
+    background: url(../image/icon.png);
+    background-position: -243px 0;
+    position: absolute;
+    top: 8px;
+    left: 10px;
+    width: 19px;
+    height: 23px;
+    margin-left: 9rem;
+}
+.ir-logo {
+    background-position: -306px -457px;
+    width: 159px;
+    height: 57px;
+}
+.arrow-right {
+    background-position: -120px -100px;
+    width: 16px;
+    height: 8px;
+}
+.arrow-right-coral {
+    background-position: -400px -100px;
+    width: 32px;
+    height: 32px;
+}
+.icon-sns {
+    background-image: url(../image/sns/sns.png);
+}
+.btn-post {
+    background-position: -60px -120px;
+    width: 161px;
+    height: 45px;
+}
+.icon-time:before {
+    content: '';
+    display: inline-block;
+    background: url(../image/icon.png);
+    background-position: -327px -123px;
+    width: 14px;
+    height: 14px;
+}
+.arrow-right-small:after {
+    content: '';
+    display: inline-block;
+    background: url(../image/icon.png);
+    background-position: -231px -120px;
+    width: 6px;
+    height: 8px;
+    margin-left: 10px;
+}
+
